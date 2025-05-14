@@ -36,3 +36,11 @@ Open [localhost:3000](http://localhost:3000) in your browser
 * HTTPS not supported.
 * Only supports `GET` requests.
 * This is a basic implementation and is not ready for production environments. 
+
+---
+
+### 🐳 Run with Docker
+
+```bash
+docker build -t python-http-server .
+docker run -p 3000:3000 python-http-server

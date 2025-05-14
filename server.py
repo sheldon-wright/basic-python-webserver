@@ -13,7 +13,7 @@ def main():
     server_port = 3000
 
     # Bind socket to the server address and port
-    server_socket.bind(("127.0.0.1", server_port))
+    server_socket.bind(("0.0.0.0", server_port))
 
     # Listen for incoming connections
     server_socket.listen(5)
