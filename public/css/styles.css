@@ -1,0 +1,4 @@
+/* Put whatever you want here. */
+
+ul { margin: 0; margin-block-start: 0; padding-inline-start: 0; list-style-type: none;}
+ul > li { display: inline-block; padding-right: 5px; }
